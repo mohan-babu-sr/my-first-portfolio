@@ -1,1 +1,9 @@
-My first portfolio
+<div fxLayout="column" id="app-container">
+  <div class="h100p">
+    djbj
+    <router-outlet></router-outlet>
+  </div>
+  <div *ngIf="showToast">
+    Error popup
+  </div>
+</div>
